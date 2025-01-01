@@ -107,7 +107,7 @@
                             <button type="submit" @click.prevent="applyOffre" class="flex w-fit pt-3">
                                 <div class="flex items-center justify-between cursor-pointer bg-dark-blue hover:bg-[#004179e5] font-light text-base md:text-lg text-white-color px-3 md:px-8 py-1.5 md:py-2 rounded-full">
                                     <span>Envoyer</span>
-                                    <img src="../assets/right.svg" class="h-6 md:h-8" alt="">
+                                    <img src="../../assets/right.svg" class="h-6 md:h-8" alt="">
                                 </div>
                             </button>
                         </form>
