@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const axios = Axios.create({
-    baseURL: 'https://livreeo.ma/api/public',
+    baseURL: 'https://livreeo.webtrix.ma/api/public',
     headers: {
         Accept: 'application/json',
     },
