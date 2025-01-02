@@ -33,7 +33,7 @@
                     <div v-if="props.typeMod === 'menu'" class="bg-white-color text-dark-blue w-full rounded-3xl px-5 py-8 space-y-8">
                         <div class="flex flex-col space-y-5 lg:px-5">
                             <div class="flex flex-col md:hidden space-y-5">
-                              <router-link to="/pack-selection" @click="setIsOpened(false)"><h1 class="text-base 2xl:text-lg font-bold uppercase">Pack</h1></router-link>
+                              <router-link to="/pack" @click="setIsOpened(false)"><h1 class="text-base 2xl:text-lg font-bold uppercase">Pack</h1></router-link>
                               <router-link to="/accessoires-scolaires" @click="setIsOpened(false)"><h1 class="text-base 2xl:text-lg font-bold uppercase">Accessoires Scolaires</h1></router-link>
                               <router-link to="/list" @click="setIsOpened(false)"><h1 class="text-base 2xl:text-lg font-bold uppercase">Listes Scolaires</h1></router-link>
                               <router-link to="/about/partnerships" @click="setIsOpened(false)"><h1 class="text-base 2xl:text-lg font-bold uppercase">Partenariats Assocciatifs</h1></router-link>
