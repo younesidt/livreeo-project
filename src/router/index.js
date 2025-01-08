@@ -26,6 +26,7 @@ import TypeFourniture from '../views/TypeFourniture.vue'
 import Recrutement from '../views/about-views/RecrutementView.vue'
 import RecrutementForm from '../views/about-views/RecrutementForm.vue'
 import Bill from '../views/Bill.vue'
+import Login from '../views/Login/LoginPage.vue'
 
 const router = createRouter({
     history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -161,6 +162,12 @@ const router = createRouter({
           path: '/bill',
           name: 'Bill',
           component: Bill,
+          meta: { hideNavBar: true }
+        },
+        {
+          path: '/login',
+          name: 'login',
+          component: Login,
           meta: { hideNavBar: true }
         }
     ]
